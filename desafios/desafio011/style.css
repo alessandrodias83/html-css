@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background-color: #8fc1b5;
+}
+
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf') format(opentype);
+}
+main {
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #6e695daf;
+    width: 1050px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1#principal {
+    background-color: #007566;
+    color: white;
+    font: normal 36 px Arial;
+    text-align: center;
+    
+}
+
+.titulo {
+    color: #265c4b;
+    font: normal 20px 'idroid'
+}
+
+.subtitulo {
+    background-color: #8dbdb498;
+    color: #007566;
+}
+.topo {
+    background-color: #007566;
+    color: aliceblue;
+    font: normal 14px Arial;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+spam {
+    color: #265c4b;
+    font-weight: bold;
+}

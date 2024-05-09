@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(221, 213, 201);
+        }
+        header {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(87, 102, 107);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(45, 50, 51, 0.425);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        main {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+        article {
+            background-color: rgb(221, 213, 201);
+            color: rgb(22, 18, 18);
+        }
+
+        article > aside {
+            background-color: rgb(148, 145, 151);
+            text-align: right;
+            color: white;
+            
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header> 
+        <h1>Meu site</h1>
+        <nav> 
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política e Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta sequi quod veritatis dignissimos pariatur natus, unde debitis similique earum enim officia mollitia, nemo quam ratione minima molestias quae reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias magni, nobis nisi accusantium vero voluptatem necessitatibus, dolores adipisci aliquid eos iste eum sed porro iure enim iusto blanditiis ea ex.</p>
+                <aside>
+                    <p>Artigo escrito por Alessandro Dias</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Formúla 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sunt voluptate provident modi quibusdam commodi animi rerum aut, eaque asperiores vel ipsa pariatur earum accusantium at dolor, ullam soluta saepe. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptate minus similique esse quisquam commodi voluptatem sed cupiditate eius, animi dicta quod ipsa corrupti quidem vel cum aut nobis laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, autem consequatur! Molestiae obcaecati quibusdam praesentium eaque eum non! Beatae omnis id provident quia qui necessitatibus pariatur aliquam minima enim. Consequatur!</p>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Alessandro Dias</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

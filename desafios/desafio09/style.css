@@ -1,0 +1,37 @@
+@charset "UFT-8";
+
+body {
+    background-color: rgb(73, 73, 165);
+
+}
+
+main {
+    background-color: rgb(155, 87, 218);
+    border-radius: 10px;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+a {
+    background-image: linear-gradient(to center);
+    
+}
+
+p {
+    color: bisque;
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    text-align: center;
+    align-items: center;
+}
