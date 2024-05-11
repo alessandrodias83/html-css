@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,th {
@@ -30,10 +31,22 @@
             background-color: rgb(58, 55, 55);
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(58, 55, 55); /*Esse comando é para fixar os textos da tabela para acompanhar todas as linhas*/
+        }
+
+        tbody > tr:nth-child(2n) { /*Esse comando é para fazer o efeito zebrado, usar: tr:nth-child(2n). o 2n significa que o efeito vai ser aplicado de duas em duas linhas; caso escolha odd, será apenas a ímpares ou even que é par. O odd e even posso usar, quando tiver um fundo de uma imagem por exemplo*/
+            background-color: lightgrey;
+        }
         tfoot {
             background-color: rgb(58, 55, 55);
             color: white;
         }
+        
+
         td.num {
             text-align: right;
         }
@@ -179,6 +192,24 @@
 
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor illo, fuga, porro error possimus repellendus, necessitatibus reprehenderit doloremque sapiente labore. Officiis aliquid et architecto alias quis. Quam, eius commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio qui vel magni fugiat sed assumenda. Libero obcaecati qui rerum, nam suscipit sint, quam nihil officia molestias ducimus tenetur explicabo?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat culpa expedita iste perferendis dolor aspernatur, mollitia dignissimos, explicabo porro fuga voluptate quis, eaque hic facere labore dolorum assumenda? Praesentium, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus quis, fugiat vel voluptatem harum eum, sed eaque error, ipsa dolor voluptatibus quam labore quae aliquid eveniet vero odio ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at dolores quas aspernatur officiis, quae autem laborum blanditiis explicabo porro, expedita reprehenderit vero eos repudiandae harum architecto natus impedit sequi.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor illo, fuga, porro error possimus repellendus, necessitatibus reprehenderit doloremque sapiente labore. Officiis aliquid et architecto alias quis. Quam, eius commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio qui vel magni fugiat sed assumenda. Libero obcaecati qui rerum, nam suscipit sint, quam nihil officia molestias ducimus tenetur explicabo?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat culpa expedita iste perferendis dolor aspernatur, mollitia dignissimos, explicabo porro fuga voluptate quis, eaque hic facere labore dolorum assumenda? Praesentium, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus quis, fugiat vel voluptatem harum eum, sed eaque error, ipsa dolor voluptatibus quam labore quae aliquid eveniet vero odio ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at dolores quas aspernatur officiis, quae autem laborum blanditiis explicabo porro, expedita reprehenderit vero eos repudiandae harum architecto natus impedit sequi.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor illo, fuga, porro error possimus repellendus, necessitatibus reprehenderit doloremque sapiente labore. Officiis aliquid et architecto alias quis. Quam, eius commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio qui vel magni fugiat sed assumenda. Libero obcaecati qui rerum, nam suscipit sint, quam nihil officia molestias ducimus tenetur explicabo?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat culpa expedita iste perferendis dolor aspernatur, mollitia dignissimos, explicabo porro fuga voluptate quis, eaque hic facere labore dolorum assumenda? Praesentium, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus quis, fugiat vel voluptatem harum eum, sed eaque error, ipsa dolor voluptatibus quam labore quae aliquid eveniet vero odio ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at dolores quas aspernatur officiis, quae autem laborum blanditiis explicabo porro, expedita reprehenderit vero eos repudiandae harum architecto natus impedit sequi.
+    </p>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor illo, fuga, porro error possimus repellendus, necessitatibus reprehenderit doloremque sapiente labore. Officiis aliquid et architecto alias quis. Quam, eius commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio qui vel magni fugiat sed assumenda. Libero obcaecati qui rerum, nam suscipit sint, quam nihil officia molestias ducimus tenetur explicabo?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat culpa expedita iste perferendis dolor aspernatur, mollitia dignissimos, explicabo porro fuga voluptate quis, eaque hic facere labore dolorum assumenda? Praesentium, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus quis, fugiat vel voluptatem harum eum, sed eaque error, ipsa dolor voluptatibus quam labore quae aliquid eveniet vero odio ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at dolores quas aspernatur officiis, quae autem laborum blanditiis explicabo porro, expedita reprehenderit vero eos repudiandae harum architecto natus impedit sequi.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor illo, fuga, porro error possimus repellendus, necessitatibus reprehenderit doloremque sapiente labore. Officiis aliquid et architecto alias quis. Quam, eius commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio qui vel magni fugiat sed assumenda. Libero obcaecati qui rerum, nam suscipit sint, quam nihil officia molestias ducimus tenetur explicabo?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat culpa expedita iste perferendis dolor aspernatur, mollitia dignissimos, explicabo porro fuga voluptate quis, eaque hic facere labore dolorum assumenda? Praesentium, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus quis, fugiat vel voluptatem harum eum, sed eaque error, ipsa dolor voluptatibus quam labore quae aliquid eveniet vero odio ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at dolores quas aspernatur officiis, quae autem laborum blanditiis explicabo porro, expedita reprehenderit vero eos repudiandae harum architecto natus impedit sequi.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor illo, fuga, porro error possimus repellendus, necessitatibus reprehenderit doloremque sapiente labore. Officiis aliquid et architecto alias quis. Quam, eius commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio qui vel magni fugiat sed assumenda. Libero obcaecati qui rerum, nam suscipit sint, quam nihil officia molestias ducimus tenetur explicabo?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat culpa expedita iste perferendis dolor aspernatur, mollitia dignissimos, explicabo porro fuga voluptate quis, eaque hic facere labore dolorum assumenda? Praesentium, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda necessitatibus quis, fugiat vel voluptatem harum eum, sed eaque error, ipsa dolor voluptatibus quam labore quae aliquid eveniet vero odio ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at dolores quas aspernatur officiis, quae autem laborum blanditiis explicabo porro, expedita reprehenderit vero eos repudiandae harum architecto natus impedit sequi.
+    </p>
 
 
 </body>
