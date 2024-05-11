@@ -3,31 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover; /*usar este comando permite utilizar uma imagem em 100% da tela sem nenhum fundo. Outra alternativa é o 'contain'*/
+            /*background-attachment: fixed; /* usando a propriedade desta linha, é possivel que somente meu main role, a página pode ser do tamanho que for, meu fundo permanecerá fixo*/
+
+            /*Shorthand - Background
+            color > image > position > repeat > [size] > attachment
+
+            background: black url('imagens/wallpaper002.jpg') center center no repeat cover fixed;
+
+            caso não funcione, tirar o cover(size), e fazer a declaração normal, conforme está abaixo
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
             
         }
+
+        main h1 {
+            color: seagreen;
+        }
+        main p {
+            color: rgb(4, 29, 29);
+        }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias culpa ratione dolores veritatis distinctio deserunt eius inventore id similique magni maiores sunt assumenda, nisi dignissimos aliquam, reprehenderit ducimus sed expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae quos quisquam culpa accusamus explicabo, rerum cupiditate neque dolores natus, a at nemo, ad sunt molestias cum labore architecto dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolorum soluta delectus, cumque ipsum quisquam, similique autem deleniti eum obcaecati quae! Soluta itaque dignissimos reiciendis totam eum, expedita consequuntur quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui officiis error commodi repellendus eius sequi eveniet alias veritatis at, recusandae similique odit atque consequuntur perspiciatis quibusdam laudantium! Doloremque, blanditiis.
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias culpa ratione dolores veritatis distinctio deserunt eius inventore id similique magni maiores sunt assumenda, nisi dignissimos aliquam, reprehenderit ducimus sed expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quae quos quisquam culpa accusamus explicabo, rerum cupiditate neque dolores natus, a at nemo, ad sunt molestias cum labore architecto dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolorum soluta delectus, cumque ipsum quisquam, similique autem deleniti eum obcaecati quae! Soluta itaque dignissimos reiciendis totam eum, expedita consequuntur quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui officiis error commodi repellendus eius sequi eveniet alias veritatis at, recusandae similique odit atque consequuntur perspiciatis quibusdam laudantium! Doloremque, blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis enim incidunt sapiente, explicabo dolorem totam nemo quia deleniti, quo maxime nostrum ipsum autem adipisci architecto facere unde non! Magnam, facere.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores iure tenetur quisquam dolorem esse reiciendis, at voluptatibus natus id labore accusantium eaque. Et consequatur vitae non nam neque consequuntur a!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quidem ducimus totam sunt amet dolor provident, non quae, eaque reprehenderit perspiciatis quia saepe illo! Aspernatur accusamus est natus quibusdam Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas qui eligendi cupiditate esse quibusdam, tenetur accusantium quos tempore earum totam, facilis itaque fugiat, minima veritatis veniam tempora illum repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam commodi, molestias quis ratione rerum ex ea dolorem alias expedita voluptatum qui modi perferendis eligendi ipsam asperiores officiis, libero repellat et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odio ullam iste aliquam voluptate amet omnis, eius, esse ducimus soluta aliquid labore saepe nisi beatae dignissimos vitae dolore adipisci fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, aliquid. Corporis, placeat earum recusandae quidem asperiores maiores nostrum veniam impedit error quam possimus, aperiam doloribus? Perferendis veniam corporis temporibus neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at maxime quia. Quia a in atque illo molestias, voluptatibus vero, perferendis esse dolor recusandae dolores enim quas mollitia! Odit, quibusdam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime hic tempore iure earum quod labore nostrum minus quasi rem, reprehenderit saepe beatae nisi aliquam delectus alias. Quod fugit amet autem.
         </p>
     </main>
     
