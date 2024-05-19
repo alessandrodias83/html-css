@@ -86,6 +86,7 @@ main ul {
     list-style-position: inside;
     columns: 2;
     line-height: 1.3em;
+    
 
 }
 main p {
@@ -94,6 +95,7 @@ main p {
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
+    
 
 }
 
@@ -105,6 +107,10 @@ sectio.normal {
     background-color: #e1ebe6;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+section > img#imagem {
+    background-size: cover;
 }
 
 table {
