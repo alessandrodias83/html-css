@@ -137,3 +137,16 @@ thead > tr > th {
     top: -1px;
     background-color: rgb(58, 55, 55);
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #10888a;
+}
+
+.flex-item {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+}
