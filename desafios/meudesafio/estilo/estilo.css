@@ -86,6 +86,7 @@ main ul {
     list-style-position: inside;
     columns: 2;
     line-height: 1.3em;
+    
 
 }
 main p {
@@ -94,6 +95,7 @@ main p {
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
+    
 
 }
 
