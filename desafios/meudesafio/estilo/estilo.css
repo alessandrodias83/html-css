@@ -109,6 +109,10 @@ sectio.normal {
     padding-left: 30px;
 }
 
+section > img#imagem {
+    background-size: cover;
+}
+
 table {
     width: 500px;
     border-collapse: collapse;
