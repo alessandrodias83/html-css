@@ -1,13 +1,24 @@
 @charset "UFT-8";
 
 :root {
-    --cor01: #002333;
+
+    --cor01: #28116C;
+    --cor02: #3F365C;
+    --cor03: #736C89;
+    --cor04: #9D3608;
+    --cor05: #855A47;
+    --cor06: #C8A797;
+    --cor07: #838447;
+    --cor08: #8F906A;
+    --cor09: #C6C797;
+
+    /*--cor01: #002333;
     --cor02: #0b4a4b;
     --cor03: #10888a;
     --cor04: #deefe7;
     --cor05: #b4bec9;
     --cor06: #deefe7;
-    --cor07: #ffffff;
+    --cor07: #ffffff;*/
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
@@ -18,16 +29,33 @@
 }
 
 body {
-    background-color: var(--cor03);
+    background-color: var(--cor06);
     font-family: var(--fonte-padrao);
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
-    color: var(--cor07);
+    background-color: var(--cor01);
+    color: white;
     min-height: 150px;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
+}
+
+nav {
+    background-color: #28116C;
+    color: white;
+    font-size: 1em;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px 20px;
+    
 }
 
 main {
@@ -36,19 +64,19 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: var(--cor07);
+    background-color: white;
 
 }
 
 
 main a {
-    color:var(--cor03);
+    color:var(--cor01);
     font-weight: bold;
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--cor02);
+    color: var(--cor04);
     text-decoration:underline;
 }
 main h1 {
@@ -62,23 +90,14 @@ main h1 {
 }
 
 main h2 {
-    color: var(--cor02);
+    color: white;
     font-size: 1.3em;
     font-weight: bold;
-    background-image: linear-gradient(to right, var(--cor04), transparent);
+    background-color: var(--cor02);
     text-indent: 30px;
 }
 
-main h3 {
-    color: var(--cor02);
-    font-size: 1em;
-    font-weight: bold;
-    background-image: linear-gradient();
-    text-indent: 30px;
-    padding: 20px;
-    
 
-}
 
 main ul {
     padding: 20px;
@@ -94,45 +113,4 @@ main p {
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
-
-}
-
-main strong {
-    color: var(--cor03);
-}
-
-sectio.normal {
-    background-color: #e1ebe6;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-table {
-    width: 500px;
-    border-collapse: collapse;
-    position: relative;
-    text-align: center;
-}
-
-td,th {
-    border: 1px solid black;
-    padding: 10px;
-}
-
-caption {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 10px;
-    background-color: lightgrey;
-}
-
-thead {
-    background-color: rgb(58, 55, 55);
-    color: white;
-}
-
-thead > tr > th {
-    position: sticky;
-    top: -1px;
-    background-color: rgb(58, 55, 55);
 }
