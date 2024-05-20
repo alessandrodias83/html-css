@@ -43,6 +43,23 @@ header {
     padding: 30px;
 }
 
+nav {
+    background-color: #28116C;
+    color: white;
+    font-size: 1em;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px 20px;
+    
+}
+
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -51,6 +68,19 @@ main {
     padding: 20px;
     background-color: white;
 
+}
+
+a#nav {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a#nav:hover {
+    color: #eb7742;
+    background: #3e2686d3;
+    padding: 3px;
+    
 }
 
 
