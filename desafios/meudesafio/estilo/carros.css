@@ -149,7 +149,6 @@ th {
 }
 
 div.video {
-    background-color:#10888a;
     margin: 0px -20px 30px -20px;
     padding: 20px;
     padding-bottom: 58%;
@@ -164,4 +163,3 @@ div.video > iframe {
     width: 90%;
     height: 90%;
 }
-    
