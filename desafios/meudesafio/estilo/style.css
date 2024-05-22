@@ -36,7 +36,7 @@ body {
 header {
     background-color: var(--cor01);
     color: white;
-    min-height: 150px;
+    min-height: 85px;
     text-align: center;
     padding: 10px;
 }
@@ -59,12 +59,16 @@ nav {
 }
 
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 600px;
+    max-width: 897px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
     background-color: white;
+    display: flex;
+    position: relative;
+    top: 398px;
+
 
 }
 
@@ -116,12 +120,11 @@ main p {
 }
 
 .content {
-    height: 520px;
+    height: 400px;
     width: 935px;
-    border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -135,8 +138,8 @@ main p {
 }
 
 .bar {
-    width: 70px;
-    height: 17px;
+    width: 50px;
+    height: 12px;
     border: 1px solid #fff;
     margin: 6px;
     border-radius: 5px;
@@ -154,7 +157,7 @@ input {
 
 .slides {
     display: flex;
-    width: 500%;
+    width: 900%;
     height: 100%;
 }
 
@@ -173,17 +176,29 @@ input {
 }
 
 #slide2:checked ~ .s1 {
-    margin-left: -20%;
+    margin-left: -12,5%;
 }
 
 #slide3:checked ~ .s1 {
-    margin-left: -40%;
+    margin-left: -25%;
 }
 
 #slide4:checked ~ .s1 {
-    margin-left: -60%;
+    margin-left: -37,5;
 }
 
 #slide5:checked ~ .s1 {
-    margin-left: -80%;
+    margin-left: -50%;
+}
+
+#slide6:checked ~ .s1 {
+    margin-left: -62,5%;
+}
+
+#slide7:checked ~ .s1 {
+    margin-left: -75%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -87,5%;
 }

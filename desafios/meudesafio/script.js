@@ -7,7 +7,7 @@ setInterval( function(){nexImage();
 
 function nexImage (){
     count++;
-    if(count>5) {
+    if(count>8) {
         count = 1;
     }
 
