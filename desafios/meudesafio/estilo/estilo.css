@@ -109,7 +109,9 @@ sectio.normal {
     padding-left: 30px;
 }
 
-section > img#imagem {
+section > img > imagem {
+    display: block;
+    margin: auto;
     background-size: cover;
 }
 
