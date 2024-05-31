@@ -4,38 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=hea, initial-scale=1.0">
     <title>Meus Carros</title>
-    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="shortcut icon" href="imagens/favicom.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+   
 </head>
 <body>
    <header>
-    <h1>Carros do Alessadro</h1>
+    <h1>Carros do Alessadro</h1> <br>
     <p>Aqui você vai encontrar tudo sobre os carros do Alessandro</p>
-
    </header> 
+   <nav class="container">
+    <h4>Home</h4>
+    <h4>Quem Somos</h4>
+    <h4>Contato</h4>
+    </nav>
 
-   <nav>
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked> 
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5"> 
+            <input type="radio" name="slide" id="slide6"> 
+            <input type="radio" name="slide" id="slide7"> 
+            <input type="radio" name="slide" id="slide8"> 
+            
 
-   </nav>
+            <div class="slide s1">
+                <img src="imagens/corsa01.jpg" alt="foto1">
+            </div>
+            <div class="slide">
+                <img src="imagens/palio01.jpg" alt="foto2">
+            </div>
+            <div class="slide">
+                <img src="imagens/punto01.jpg" alt="foto3">
+            </div>
+            <div class="slide">
+                <img src="imagens/fiesta01.jpg" alt="foto4">
+            </div>
+            <div class="slide">
+                <img src="imagens/celta01.jpg" alt="foto5">
+            </div>
+            <div class="slide">
+                <img src="imagens/civic01.jpg" alt="foto6">
+            </div>
+            <div class="slide">
+                <img src="imagens/corolla01.jpg" alt="foto7">
+            </div>
+            <div class="slide">
+                <img src="imagens/uno01.jpg" alt="foto8">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label class="bar" for="slide1"></label> 
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+            <label class="bar" for="slide6"></label>
+            <label class="bar" for="slide7"></label>
+            <label class="bar" for="slide8"></label>
+        </div>
+
+    </div>
 
    <main>
+    
     <article>
         <h1>História dos Meus Carros</h1>
         <h2>Lista dos meus carros</h2>
         <section class="navegacao" id="02">
             <ul>
-                <li><a href="corsa.html" target="_blank">Chevrolet Corsa Sedan 1.0 - 2001</a></li>
-                <li><a href="palio.html" target="_blank">Fiat Pálio Fire 1.0 - 2005</a></li>
-                <li><a href="punto.html" target="_blank"Fiat Punto 1.4 Attractive - 2011</a></li>
-                <li><a href="fiesta.html" target="_blank">Ford New Fiesta 1.6 - 2014</a></li>
+                <li><a href="corsa.html" >Chevrolet Corsa Sedan 1.0 - 2001</a></li>
+                <li><a href="palio.html" ">Fiat Pálio Fire 1.0 - 2005</a></li>
+                <li><a href="punto.html" >Fiat Punto Attractive elx 2011</a></li>
+                <li><a href="fiesta.html" >Ford New Fiesta 1.6 - 2014</a></li>
                 <li>Chevrolet Celta 1.0 - 2013</li>
                 <li>Honda Civic LXR 2.0 - 2015 </li>
                 <li>Toyota Corolla XEI 1.8 - 2005</li>
                 <li>Fiat Uno Attracive 1.0 - 2021</li>
             </ul>
         </section>
-
-     
-
 
 
     </article>
@@ -45,6 +96,8 @@
    <footer>
 
    </footer>
+
+   <script src="script.js"></script>
 
 </body>
 </html>
